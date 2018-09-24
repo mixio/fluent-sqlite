@@ -8,8 +8,8 @@ let package = Package(
     ],
     dependencies: [
         // 🌎 Utility package containing tools for byte manipulation, Codable, OS APIs, and debugging.
-//      .package(url: "https://github.com/vapor/core.git", from: "3.0.0"),
-        .package(url: "https://github.com/mixio/core.git", .branch("mixio-dev")),
+        .package(url: "https://github.com/vapor/core.git", from: "3.0.0"),
+//      .package(url: "https://github.com/mixio/core.git", .branch("mixio-dev")),
 
         // ✳️ Swift ORM framework (queries, models, and relations) for building NoSQL and SQL database integrations.
 //      .package(url: "https://github.com/vapor/fluent.git", from: "3.0.0"),
